@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 页面左右间距 */
+.pageBody.data-v-2b83d4f8 {
+  background-color: #f3f4f6;
+  height: 100ch;
+}
+.PinDaoList.data-v-2b83d4f8 {
+  padding: 20rpx;
+  padding-bottom: 120rpx;
+}
+.PinDaoList .item.data-v-2b83d4f8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.PinDaoList .item .img.data-v-2b83d4f8 {
+  height: 300rpx;
+  border-radius: 20rpx;
+}
+

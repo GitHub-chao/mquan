@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "联系客服",
+  "usingComponents": {
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-tag": "/uview-ui/components/u-tag/u-tag"
+  }
+}

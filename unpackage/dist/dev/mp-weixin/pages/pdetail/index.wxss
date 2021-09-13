@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 页面左右间距 */
+.goodinfo.data-v-1d64985b {
+  padding: 20rpx;
+}
+.goodinfo .goodtit.data-v-1d64985b {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  line-height: 160%;
+}
+.goodinfo .price.data-v-1d64985b {
+  margin-top: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.goodinfo .price .price_info.data-v-1d64985b {
+  width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  -webkit-box-align: end;
+}
+.goodinfo .price .price_info .newprice.data-v-1d64985b {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+.goodinfo .price .price_info .oldprice.data-v-1d64985b {
+  color: #a8a8a8;
+  font-size: 8px;
+  text-decoration: line-through;
+}
+.goodinfo .price .price_info .quaninfo.data-v-1d64985b {
+  margin-left: 30rpx;
+}
+.goodinfo .couponinfo.data-v-1d64985b {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 0px 4px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-self: center;
+  align-self: center;
+  width: 98%;
+}
+.goodinfo .couponinfo .ticket.data-v-1d64985b {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+.goodinfo .couponinfo .ticket .left.data-v-1d64985b {
+  width: 75%;
+  padding: 12px 8px;
+  background-color: #fff5f4;
+  border-radius: 8px;
+  border-right: dashed 0.5px #e0d7d3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.goodinfo .couponinfo .ticket .left .picture.data-v-1d64985b {
+  height: auto;
+  border-radius: 0px;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out 0s;
+  transition: opacity 0.5s ease-in-out 0s;
+  background-color: transparent;
+}
+.goodinfo .couponinfo .ticket .left .desc.data-v-1d64985b {
+  margin-left: 10rpx;
+  color: #f90;
+  font-size: 11px;
+  min-width: 106px;
+}
+.goodinfo .couponinfo .ticket .right.data-v-1d64985b {
+  width: 25%;
+  padding: 17px 8px;
+  background-color: #fff5f4;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.goodinfo .dianpu.data-v-1d64985b {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 6px solid #f7f7f7;
+  border-bottom: 6px solid #f7f7f7;
+}
+.goodinfo .dianpu .logo.data-v-1d64985b {
+  width: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-self: center;
+  align-self: center;
+}
+.goodinfo .dianpu .desc.data-v-1d64985b {
+  width: 78%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 17px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.goodinfo .dianpu .desc .title.data-v-1d64985b {
+  font-weight: 700;
+}
+.goodinfo .dianpu .desc .jieshao.data-v-1d64985b {
+  font-size: 10px;
+  color: #a8a8a8;
+}
+.goodinfo .foot_btn.data-v-1d64985b {
+  width: 100%;
+  background: #fff;
+  height: 42px;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-radius: 4px 4px 0px 0px;
+}
+.goodinfo .foot_btn .left_box.data-v-1d64985b {
+  width: 50%;
+  padding-left: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.goodinfo .foot_btn .left_box .u-icon--bottom.data-v-1d64985b {
+  text-align: center;
+}
+.goodinfo .foot_btn .right_box.data-v-1d64985b {
+  width: 45%;
+  padding-left: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.wxchatShareBtnView.data-v-1d64985b {
+  padding: 16rpx 0px;
+}
+.wxchatShareBtnView .wxchatShareBtn.data-v-1d64985b {
+  background-color: #FFFFFF;
+  height: 20px;
+  line-height: 20px;
+  padding: 0px;
+}
+.wxchatShareBtnView .wxchatShareBtn.data-v-1d64985b:after {
+  border: none;
+}
+.shareModel .shareBody.data-v-1d64985b {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  padding: 20rpx;
+  color: #606266;
+}
+.shareModel .shareBody .Content.data-v-1d64985b {
+  background-color: #f4f4f5;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+}
+.shareModel .shareBody .Content .shareImg.data-v-1d64985b {
+  text-align: center;
+}
+.shareModel .shareFooter.data-v-1d64985b {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+

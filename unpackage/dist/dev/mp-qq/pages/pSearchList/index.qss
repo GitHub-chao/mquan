@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 页面左右间距 */
+.pageBody.data-v-4cecb660 {
+  background-color: #f3f4f6;
+  height: 100ch;
+}
+.CustomSort.data-v-4cecb660 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-bottom: 20rpx;
+}
+.CustomSort .CustomSortRow.data-v-4cecb660 {
+  width: 100%;
+}
+.CustomSort .CustomSortRow .CustomSortCol.data-v-4cecb660 {
+  text-align: center;
+}
+.ScreenBoxForm.data-v-4cecb660 {
+  padding: 15rpx;
+}
+.ScreenBoxForm .viewlabel.data-v-4cecb660 {
+  color: #606266;
+  font-size: 14px;
+}
+.CustomScreen.data-v-4cecb660 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 10rpx 0px;
+}
+.CustomScreen .ScreenItem.data-v-4cecb660 {
+  width: 50%;
+  text-align: center;
+}
+.CustomScreen .ScreenItem .ItemLabel.data-v-4cecb660 {
+  margin-right: 10rpx;
+}
+.goodList.data-v-4cecb660 {
+  padding: 20rpx;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.goodList .goodItem.data-v-4cecb660 {
+  padding: 2%;
+  background-color: #fff;
+  width: 49%;
+  margin-bottom: 22rpx;
+  float: left;
+}
+.goodList .goodItem .goodImg.data-v-4cecb660 {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out 0s;
+  transition: opacity 0.5s ease-in-out 0s;
+  background-color: transparent;
+}
+.goodList .goodItem .goodImg .imginfo.data-v-4cecb660 {
+  height: 354rpx;
+  width: 100%;
+}
+.goodList .goodItem .goodDesc.data-v-4cecb660 {
+  margin-top: 6rpx;
+}
+.goodList .goodItem .goodDesc .title.data-v-4cecb660 {
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+.goodList .goodItem .goodDesc .price.data-v-4cecb660 {
+  margin-top: 6rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.goodList .goodItem .goodDesc .price .newprice.data-v-4cecb660 {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+}
+.goodList .goodItem .goodDesc .price .oldprice.data-v-4cecb660 {
+  color: #a8a8a8;
+  font-size: 8px;
+  text-decoration: line-through;
+}
+.goodList .goodItem .goodDesc .goodTags.data-v-4cecb660 {
+  margin-top: 6rpx;
+}
+.goodList .goodItem .goodDesc .goodTags .tag.data-v-4cecb660 {
+  margin: 5rpx;
+}
+

@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "首页",
+  "onReachBottomDistance": 300,
+  "usingComponents": {
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "uni-transition": "/components/uni-transition/uni-transition",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

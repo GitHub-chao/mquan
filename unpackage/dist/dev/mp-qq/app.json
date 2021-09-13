@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pActivtityBar/index",
+    "pages/center/index",
+    "pages/pdetail/index",
+    "pages/kefu/index",
+    "pages/pActivtiyList/index",
+    "pages/plist/index",
+    "pages/pSearchList/index",
+    "pages/photlist/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "券多多",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/pActivtityBar/index",
+        "iconPath": "static/center.png",
+        "selectedIconPath": "static/center-selected.png",
+        "text": "主题活动"
+      }
+    ]
+  },
+  "usingComponents": {
+    "fix-2648": "/fix-2648"
+  }
+}
